@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 256px;
+    float: left;
+    display: flex;
+    height: 256px; 
+    /* background: url(http://www.getmdl.io/assets/demos/image_card.jpg) center / cover;  */
+    margin: 2rem 1rem 1rem 2rem;
+    border: 3px solid white;
+    padding: 2px 2px 2px 2px;
+    align-items: stretch;
+    box-sizing: border-box;
+
+}
+
+.flex-container > CardAction > span {
+    justify-content: center;
+}
+
+.span_class {
+    color: black; 
+    font-size: 16px;
+    vertical-align: 40rem;
+    right: 90rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

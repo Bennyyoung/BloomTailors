@@ -1,0 +1,9 @@
+a:hover {
+    padding: 10px 10px 10px 10px;
+    /* background-color: grey; */
+    text-decoration: none;
+    background: #efefef;
+}
+a:active {
+    background-color: #efefef;
+}

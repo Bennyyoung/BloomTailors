@@ -1,0 +1,41 @@
+{
+  "name": "bloom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "antd": "^3.14.1",
+    "axios": "^0.18.0",
+    "bootstrap-css-only": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "google-maps-react": "^2.0.2",
+    "gsap": "^2.1.2",
+    "mdbreact": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-images-upload": "^1.2.6",
+    "react-mdl": "^1.11.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "react-slick": "^0.23.2",
+    "react-star-ratings": "^2.3.0",
+    "webpack": "^4.28.3"
+  }
+}

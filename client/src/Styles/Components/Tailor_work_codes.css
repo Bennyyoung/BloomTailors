@@ -1,0 +1,12 @@
+.img_flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 100px;
+    float: left;
+    display: flex;
+    height: 256px;  
+    margin: 2rem 1rem 7rem 2rem;
+    padding: 2px 2px 15px, 2px;
+    box-sizing: border-box;
+}
