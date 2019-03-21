@@ -1,53 +1,21 @@
 import React from 'react';
-import {Footer, FooterSection, FooterLinkList, FooterDropDownSection}  from 'react-mdl';
+import { NavLink } from 'react-router-dom';
+import '../Styles/Components/Foot.css'
+import {Footer, FooterSection, FooterLinkList }  from 'react-mdl';
 class Foot extends React.Component {
     render () {
         return (
-            <Footer size="mega">
-                <FooterSection type="middle">
-                    <FooterDropDownSection title="Features">
+            <div className="stick_to_bottom">
+                <Footer size="mini" style={{background: "rgb(17, 33, 44)"}}>
+                    <FooterSection type="left" logo="Bloom Tailors">
                         <FooterLinkList>
-                            <a href="#">About</a>
-                            <a href="#">Terms</a>
-                            <a href="#">Partners</a>
-                            <a href="#">Updates</a>
+                            <NavLink to="/contact_us" activeclassName="is-active">Contact Us</NavLink>
+                            <NavLink to="/terms_of_use" activeclassName="is-active">Terms of Use & Privacy Policy</NavLink>
                         </FooterLinkList>
-                    </FooterDropDownSection>
-                    <FooterDropDownSection title="Details">
-                        <FooterLinkList>
-                            <a href="#">Specs</a>
-                            <a href="#">Tools</a>
-                            <a href="#">Resources</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                    <FooterDropDownSection title="Technology">
-                        <FooterLinkList>
-                            <a href="#">How it works</a>
-                            <a href="#">Patterns</a>
-                            <a href="#">Usage</a>
-                            <a href="#">Products</a>
-                            <a href="#">Contracts</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                    <FooterDropDownSection title="FAQ">
-                        <FooterLinkList>
-                            <a href="#">Questions</a>
-                            <a href="#">Answers</a>
-                            <a href="#">Contact Us</a>
-                        </FooterLinkList>
-                    </FooterDropDownSection>
-                </FooterSection>
-                <FooterSection type="bottom" logo="BLOOM">
-                    <FooterLinkList>
-                        <a href="#">Help</a>
-                        <a href="#">Privacy & Terms</a>
-                    </FooterLinkList>
-                </FooterSection>
-                <div>
-                    &copy; {new Date().getFullYear()} Copyright:{" "}
-                    <a href="#"> BLOOM </a>
-                </div>
-            </Footer>
+                    </FooterSection>
+                </Footer>
+            </div>
+            
         )
     }
 }

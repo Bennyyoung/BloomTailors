@@ -1,9 +1,13 @@
-a:hover {
-    padding: 10px 10px 10px 10px;
-    /* background-color: grey; */
-    text-decoration: none;
-    background: #efefef;
-}
-a:active {
+.is-active {
+    font-weight: bold;
     background-color: #efefef;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+} 
+
+.hover_over_link > a:hover {
+    font-weight: 100px;
+    background-color: #efefef;
+
 }

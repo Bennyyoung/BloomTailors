@@ -1,0 +1,33 @@
+.contact_us_style > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold
+}
+
+.contact_us_style p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.float_left > ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.float_right > ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.float_left ul > h4 {
+    font-weight: bold
+}
+
+.float_right ul > h4 {
+    font-weight: bold
+}

@@ -1,0 +1,9 @@
+.stick_to_bottom {
+    clear: left; /*Clear left stops it from floating left
+                    alongs others*/
+}
+
+.stick_to_bottom > .is-active {
+    font-weight: bold;
+    font-size: 20px;
+}

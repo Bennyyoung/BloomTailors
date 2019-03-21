@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
+// import Modal from './Modal';
 import { Link } from 'react-router-dom';
 import '../Styles/Components/Login.css';
 
