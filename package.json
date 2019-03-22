@@ -1,26 +1,41 @@
 {
-  "name": "bloom_server_side",
-  "version": "1.0.0",
-  "description": "Server side written in express",
-  "main": "server.js",
+  "name": "bloom",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "",
-  "license": "ISC",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "antd": "^3.14.1",
-    "concurrently": "^4.1.0",
-    "express": "^4.16.4",
-    "mongoose": "^5.4.7",
+    "axios": "^0.18.0",
+    "bootstrap-css-only": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "google-maps-react": "^2.0.2",
+    "gsap": "^2.1.2",
+    "mdbreact": "^4.11.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
-    "react-star-ratings": "^2.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-images-upload": "^1.2.6",
+    "react-mdl": "^1.11.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "react-slick": "^0.23.2",
+    "react-star-ratings": "^2.3.0",
+    "webpack": "^4.28.3"
   }
 }
